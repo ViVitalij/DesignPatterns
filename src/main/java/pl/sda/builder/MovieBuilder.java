@@ -8,26 +8,26 @@ import java.time.LocalDate;
 public class MovieBuilder {
     private Movie movie;
 
-    public MovieBuilder(){
+    public MovieBuilder() {
         this.movie = new Movie();
     }
 
-    public MovieBuilder withTitle(String title){
+    public MovieBuilder withTitle(String title) {
         this.movie.setTitle(title);
         return this;
     }
 
-    public MovieBuilder withDirector(String director){
+    public MovieBuilder withDirector(String director) {
         this.movie.setDirector(director);
         return this;
     }
 
-    public MovieBuilder withReleaseDate(LocalDate releaseDate){
+    public MovieBuilder withReleaseDate(LocalDate releaseDate) {
         this.movie.setReleaseDate(releaseDate);
         return this;
     }
 
-    public Movie build(){
+    public Movie build() {
         return movie;
     }
 }

@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int[] arrayToSort = {4,5,-2,6,-2,-1,9,10};
+        int[] arrayToSort = {4, 5, -2, 6, -2, -1, 9, 10};
         SortFacade sort = new SortFacade();
         int[] result = sort.sortThroughFacade(arrayToSort);
         System.out.println(Arrays.toString(result));

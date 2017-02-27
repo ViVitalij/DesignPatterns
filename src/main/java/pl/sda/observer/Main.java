@@ -15,7 +15,7 @@ public class Main {
         Observer observer = new Observer();
         SortFacade sortFacade = new SortFacade(observer);
 
-        int[] sortedArray = sortFacade.sortUsingCountingSortThroughFacade(new int[] {32, 42, -123, 23, -244, 323});
+        int[] sortedArray = sortFacade.sortUsingCountingSortThroughFacade(new int[]{32, 42, -123, 23, -244, 323});
 
         System.out.println(Arrays.toString(sortedArray));
     }

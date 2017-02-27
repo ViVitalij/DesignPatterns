@@ -10,7 +10,7 @@ public class PersonBuilder {
         this.person = new Person();
     }
 
-    public PersonBuilder withFirstName(String firstName){
+    public PersonBuilder withFirstName(String firstName) {
         this.person.setFirstName(firstName);
         return this;
     }
@@ -30,7 +30,7 @@ public class PersonBuilder {
         return this;
     }
 
-    public Person build(){
+    public Person build() {
         return person;
     }
 }

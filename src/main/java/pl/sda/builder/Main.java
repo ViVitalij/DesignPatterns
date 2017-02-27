@@ -26,7 +26,7 @@ public class Main {
         Movie movie = movieBuilder
                 .withTitle("Song of the Sea")
                 .withDirector("Tomm Moore")
-                .withReleaseDate(LocalDate.of(2015,5,8))
+                .withReleaseDate(LocalDate.of(2015, 5, 8))
                 .build();
 
         System.out.println(movie.toString());

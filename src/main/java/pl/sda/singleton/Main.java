@@ -23,7 +23,7 @@ public class Main {
 
         Sort sort = factory.produce(Sort.sortEnum.BUBBLE);
 
-        int[] sortedArray = sort.ascSort(new int[] {32, 42, -123, 23, -244, 323});
+        int[] sortedArray = sort.ascSort(new int[]{32, 42, -123, 23, -244, 323});
         System.out.println(Arrays.toString(sortedArray));
     }
 }
